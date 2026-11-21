@@ -1,0 +1,23 @@
+let username = input("Ismingizni kiriting: ");
+
+print("Salom, " + username);
+
+let age = 17;
+
+if (age >= 16) {
+    print("Age requirement passed!");
+
+    if (age == 17) {
+        print("You are 17 years old.");
+    } else {
+        print("You are not 17.");
+    }
+} else {
+    print("Not yet!");
+}
+
+if (username == "Ismoil") {
+    print("Welcome, Ismoil!");
+} else {
+    print("Welcome, guest!");
+}

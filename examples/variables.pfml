@@ -1,0 +1,143 @@
+// // VARIABLES
+// let username = "Ismoil";
+// let age = 15;
+
+// const language = "PFML";
+// const version = 0.4;
+
+// print("=== VARIABLES ===");
+// print(username);
+// print(age);
+// print(language);
+// print(version);
+
+// // MATHEMATICAL OPERATIONS
+// print("=== MATH ===");
+
+// let result = 10 + 20;
+// print(result);
+
+// let calculation = (10 + 5) * 2;
+// print(calculation);
+
+// // STRING CONCATENATION
+// print("=== STRINGS ===");
+
+// let greeting = "Hello " + "PFML!";
+// print(greeting);
+
+// // COMPARISON OPERATORS
+// print("=== COMPARISON ===");
+
+// if (age > 10) {
+//     print("Greater works!");
+// }
+
+// if (age >= 15) {
+//     print("Greater or equal works!");
+// }
+
+// if (age < 20) {
+//     print("Less works!");
+// }
+
+// if (age <= 15) {
+//     print("Less or equal works!");
+// }
+
+// if (age == 15) {
+//     print("Equal works!");
+// }
+
+// if (age != 10) {
+//     print("Not equal works!");
+// }
+
+// // AND OPERATORS
+// print("=== AND ===");
+
+// if (true && true) {
+//     print("&& works!");
+// }
+
+// if (true and true) {
+//     print("and works!");
+// }
+
+// // OR OPERATORS
+// print("=== OR ===");
+
+// if (true || false) {
+//     print("|| works!");
+// }
+
+// if (false or true) {
+//     print("or works!");
+// }
+
+// // NOT OPERATOR
+// print("=== NOT ===");
+
+// if (!false) {
+//     print("NOT works!");
+// }
+
+// // COMPLEX CONDITIONS
+// print("=== COMPLEX CONDITIONS ===");
+
+// if (age >= 15 && age < 18) {
+//     print("Complex condition works!");
+// }
+
+// if (age == 15 || age == 20) {
+//     print("Multiple conditions work!");
+// }
+
+// // OPERATOR PRECEDENCE
+// print("=== PRECEDENCE ===");
+
+// if (true || false && false) {
+//     print("Precedence works!");
+// }
+
+// // ELSE IF
+// print("=== ELSE IF ===");
+
+// if (age < 13) {
+//     print("Child");
+// } elseif (age < 18) {
+//     print("Teenager");
+// } else {
+//     print("Adult");
+// }
+
+// // ELSE IF AS ELSE + IF
+// if (age < 13) {
+//     print("Child");
+// } else if (age < 18) {
+//     print("Teenager");
+// } else {
+//     print("Adult");
+// }
+
+// // NESTED CONDITIONS
+// print("=== NESTED IF ===");
+
+// if (age >= 15) {
+//     if (age < 18) {
+//         print("Nested conditions work!");
+//     }
+// }
+
+// // SHORT-CIRCUIT
+// print("=== SHORT CIRCUIT ===");
+
+// if (false && unknownVariable) {
+//     print("This should not appear!");
+// }
+
+// if (true || unknownVariable) {
+//     print("Short-circuit works!");
+// }
+
+// print("=== ALL TESTS COMPLETED ===");

@@ -1,0 +1,42 @@
+{
+  "name": "pfml-language",
+  "displayName": "PFML Language Support",
+  "description": "Syntax highlighting and autocomplete for PFML.",
+  "version": "0.3.0",
+  "publisher": "platform",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "pfml",
+        "aliases": [
+          "PFML",
+          "pfml"
+        ],
+        "extensions": [
+          ".pfml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pfml",
+        "scopeName": "source.pfml",
+        "path": "./syntaxes/pfml.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "pfml",
+        "path": "./snippets/pfml.json"
+      }
+    ]
+  }
+}

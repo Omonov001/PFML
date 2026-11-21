@@ -1,0 +1,5 @@
+// My first PFML program
+
+print("Hello, PFML!");
+print("Welcome to Platform Multi-Language.");
+print("This is my first programming language!");
